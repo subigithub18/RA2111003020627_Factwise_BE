@@ -23,3 +23,10 @@ def num_to_words(n):
 
 num=int(input())
 letter_count=num_to_words(num)
+
+
+#to identify from 1 to 1000
+total_count=0
+for i in range(1,1001):
+     total_count+num_to_words(num)
+return total_count
